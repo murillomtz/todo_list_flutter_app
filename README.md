@@ -42,9 +42,9 @@ O projeto usa dependências antigas, incluindo `path_provider 0.4.x` e `intl 0.1
 
 ## Execução das capturas
 
-Para capturar a interface no navegador, foi gerado um destino web com Flutter 2.10.5. Somente na cópia local, `DbAjudante` foi ligado a uma ponte HTTP que grava em um banco SQLite real. Foram cadastrados dois afazeres e um registro foi recarregado após atualizar a página.
+Para registrar a interface em formato móvel, foi gerado um destino web com Flutter 2.10.5 e CanvasKit, em 390 × 844 pixels. Somente na cópia local, DbAjudante foi ligado a uma ponte HTTP que grava em um banco SQLite real. A lista fotografada contém seis afazeres coerentes de demonstração ligados a estudo e documentação; um deles foi cadastrado pela própria interface. O formulário e a lista persistida aparecem em capturas separadas.
 
-Essa adaptação preserva a interface, mas não representa suporte web nativo do repositório. A ponte e a troca da classe de banco não fazem parte desta atualização de documentação. Edição e exclusão não foram verificadas durante a coleta das imagens.
+Essa adaptação preserva a interface, mas não representa suporte web nativo do repositório. A ponte e a troca da classe de banco não fazem parte da atualização publicada. Edição e exclusão não foram exercitadas durante essa coleta.
 
 ## Relação com outros projetos
 
@@ -52,19 +52,15 @@ Aplicativo independente, com banco local. Não é o frontend de `todo-list-v2`, 
 
 ## Capturas do sistema
 
-Capturas reais obtidas em execução local em 12/10/2026.
+Capturas reais da interface em execução local. Nova coleta em 12–13/10/2026, com enquadramento fixo de **390 × 844 pixels (mobile)**.
 
-### Página inicial
+### Formulário de cadastro de afazer
 
-![Página inicial](docs/screenshots/inicio.jpg)
+![Formulário de cadastro de afazer](docs/screenshots/nova-tarefa.jpg)
 
-### Cadastro de uma tarefa
+### Seis afazeres persistidos em SQLite
 
-![Cadastro de uma tarefa](docs/screenshots/nova-tarefa.jpg)
-
-### Afazeres persistidos em SQLite
-
-![Afazeres persistidos em SQLite](docs/screenshots/tarefas.jpg)
+![Seis afazeres persistidos em SQLite](docs/screenshots/inicio.jpg)
 
 ## Histórico
 
